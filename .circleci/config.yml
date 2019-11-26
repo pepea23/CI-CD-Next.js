@@ -31,7 +31,6 @@ jobs:
           command: |
             cd my-first-ci-cd
             yarn
-
       - save_cache:
           paths:
             - node_modules
@@ -39,7 +38,7 @@ jobs:
 
       # run tests!
       - run: 
-          name:!! Test !!
+          name: Test 
           command: |
             cd my-first-ci-cd
             yarn
