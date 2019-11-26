@@ -41,4 +41,4 @@ jobs:
           name: Test 
           command: |
             cd my-first-ci-cd
-            yarn
+            yarn test
