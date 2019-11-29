@@ -31,7 +31,8 @@
     "build": "next build",
     "dev": "next",
     "test": "jest",
-    "start": "next start"
+    "heroku-postbuild": "npm run build",
+    "start": "next start -p $PORT",
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
