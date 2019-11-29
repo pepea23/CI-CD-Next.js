@@ -5,7 +5,7 @@ describe('test ue test jest', () => {
 })
 
 describe('FizzBuzzz', () => {
-  test('test input 1 should return 1', => {
+  test('test input 1 should return 1',() => {
        const input = 1
        actual = checkFizzBuzz(input)
        expected = 1
