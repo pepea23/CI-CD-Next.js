@@ -32,7 +32,7 @@
     "dev": "next",
     "test": "jest",
     "heroku-postbuild": "npm run build",
-    "start": "next start -p $PORT",
+    "start": "next start -p $PORT"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
