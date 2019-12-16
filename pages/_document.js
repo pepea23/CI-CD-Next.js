@@ -45,6 +45,8 @@ export default class MyDocument extends Document {
           />
         </Head>
         <body className="custom_class">
+        <script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
+        <script src="liff-starter.js"></script>
           <Main />
           <NextScript />
           <noscript
