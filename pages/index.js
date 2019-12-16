@@ -8,7 +8,6 @@ const initializeLiff = myLiffId => {
     .then(() => {
       // start to use LIFF's api
       initializeApp();
-      liff.login();
     })
     .catch(err => {
       console.log(err);
@@ -19,7 +18,8 @@ const Home = () => {
   useEffect(() => {
     initializeLiff();
   }, []);
-  return <div>welcome to liff</div>;
+  const accessToken = liff.getAccessToken();
+  return <div>welcome to liff {accessToken}</div>;
 };
 
 export default Home;
